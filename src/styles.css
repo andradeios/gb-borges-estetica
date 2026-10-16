@@ -1,0 +1,1169 @@
+:root{font-family:Manrope,Arial,sans-serif;color:#f4f5f5;background:#08090a;--black:#08090a;--graphite:#151719;--silver:#c8ccce;--muted:#aeb3b5;--line:#35393b}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--black)}button,input,select,textarea{font:inherit}button{cursor:pointer;border:0}a{color:inherit;text-decoration:none;cursor:pointer}.app-shell{min-height:100vh;background:var(--black)}.site-header{height:94px;padding:0 5vw;display:flex;align-items:center;justify-content:space-between;background:#08090a;border-bottom:1px solid #35393b;position:relative;z-index:5;box-shadow:0 8px 30px #0005}.brand{display:flex;align-items:center;gap:10px;color:#f4f5f5;font-size:12px;letter-spacing:.2em;font-weight:700;cursor:pointer}.brand-logo{width:54px;height:54px;object-fit:contain;border-radius:50%;display:block;flex:none;filter:contrast(1.08) brightness(1.04);box-shadow:0 4px 16px #0004}.brand small{display:block;font-size:7px;letter-spacing:.26em;font-weight:500;margin-top:4px;color:#aeb3b5}nav{display:flex;align-items:center;gap:10px;background:#111315;border:1px solid #3d4143;border-radius:999px;padding:6px 7px 6px 18px;box-shadow:0 8px 24px #0005}nav a{padding:10px 9px;border-radius:999px;color:#d5d7d8;font-size:10px;letter-spacing:.14em;font-weight:700}nav a:hover{background:#292c2e;color:#fff}.nav-cta,.nav-account,.button{border-radius:999px;padding:14px 18px;display:inline-flex;align-items:center;gap:9px;font-size:10px;letter-spacing:.12em;font-weight:700;box-shadow:0 9px 22px #0005;transition:.2s}.nav-cta,.button-dark{background:linear-gradient(135deg,#393b3d,#151719 48%,#030405);border:1px solid #626567;color:#fff}.nav-cta:hover,.button-dark:hover{transform:translateY(-2px);background:#5a5d60}.nav-account{background:#17191b;color:#f4f5f5;border:1px solid #65696b;box-shadow:none}.mobile-toggle{display:none;background:none;color:#fff}.public-home{background:#08090a;color:#f4f5f5}.hero{min-height:calc(100vh - 94px);background:#08090a;border-bottom:1px solid #35393b;color:#f7f7f5;padding:9vh 10vw 7vh;display:grid;grid-template-columns:1fr 1fr;position:relative;overflow:hidden}.hero-copy{align-self:center;z-index:1}.eyebrow,.section-kicker{font-size:10px;letter-spacing:.2em;font-weight:700;color:#aeb3b5;display:flex;align-items:center;gap:11px}.eyebrow span{width:24px;height:1px;background:#d1d3d4}.hero h1,h1,h2{font:400 clamp(56px,7vw,100px)/.91 'Bodoni Moda',serif;letter-spacing:-.04em}.hero h1{font-size:clamp(65px,8.5vw,136px);margin:26px 0 30px}.hero h1 em,h1 em,h2 em{font-style:italic;background:linear-gradient(105deg,#fff,#d8dcdd 48%,#8c9295);-webkit-background-clip:text;background-clip:text;color:transparent}.hero-intro{max-width:400px;color:#bfc3c4;line-height:1.8;font-size:14px}.hero-actions{display:flex;gap:30px;align-items:center;margin-top:36px}.button-light{background:#f4f5f5;color:#0a0b0c;border:1px solid #fff;box-shadow:0 12px 28px #0006}.button-light:hover{background:#c8ccce;transform:translateY(-2px)}.text-link{font-size:10px;letter-spacing:.14em;font-weight:700;display:inline-flex;align-items:center;gap:6px;border-bottom:1px solid #969b9d;padding-bottom:7px;color:#e3e5e6}.hero-art{display:flex;justify-content:center;align-items:center}.hero-frame{width:min(31vw,390px);height:min(62vh,600px);position:relative;transform:rotate(3deg);border:1px solid #474b4d;box-shadow:0 28px 80px #000b}.hero-frame:before{content:'';position:absolute;inset:-15px;border:1px solid #696e70}.hero-frame img{width:100%;height:100%;object-fit:cover;filter:grayscale(.18) contrast(1.1) brightness(.88);display:block}.frame-label{position:absolute;bottom:-34px;left:0;font-size:9px;letter-spacing:.15em;color:#d2d4d5}.services-section,.contact-band{padding:110px 10vw}.price-table-section{background:#08090a;border-bottom:1px solid #35393b}.section-heading{display:flex;justify-content:space-between;align-items:end;margin-bottom:48px;border-bottom:1px solid #35393b;padding-bottom:34px}.section-heading h2,.contact-band h2{margin:18px 0 25px}.section-heading>p{max-width:420px;line-height:1.9;color:#b5b8ba;font-size:14px}.service-list{border-top:1px solid #34383a;max-width:1240px;margin:0 auto}.service-row{min-height:58px;border-bottom:1px solid #34383a;border-radius:0;padding:7px 4px;margin:0;display:grid;grid-template-columns:34px 34px minmax(190px,1fr) minmax(200px,1fr) 105px 18px;gap:14px;align-items:center;cursor:pointer;transition:.25s;color:#f2f3f3}.service-row:hover{background:#151719;box-shadow:inset 0 0 0 1px #606466,0 18px 35px #0005;padding-left:8px}.service-index{font:12px 'Bodoni Moda',serif;color:#8c9193}.service-image{width:30px;height:30px;overflow:hidden;border-radius:3px;border:1px solid #4b4f51}.service-image img{width:100%;height:100%;object-fit:cover;filter:grayscale(.12) contrast(1.12) brightness(.9)}.service-info{display:contents}.service-info h3{font:15px 'Bodoni Moda',serif;margin:0;color:#f0f2f2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.service-info p{font-size:9px;line-height:1.35;max-width:260px;margin:0;color:#8f9597;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.service-category{display:none}.service-meta{display:contents}.service-meta strong{font:14px 'Bodoni Moda',serif;color:#fff;text-align:right;white-space:nowrap}.service-meta span{display:none}.service-arrow{width:14px;color:#8f9597}.price-table-action{max-width:1240px;display:flex;justify-content:center;border-top:1px solid #35393b;padding-top:13px;margin:24px auto 0}.price-table-action .button-dark{font-size:8px;padding:9px 14px;box-shadow:none}.contact-only{background:#08090a;border-top:0;min-height:420px;display:flex;justify-content:space-between;align-items:end}.contact-only p{color:#b9bcbd;max-width:430px;line-height:1.8;font-size:14px}.contact-only .button-dark{background:#f4f5f5;color:#0a0b0c;border-color:#fff}.contact-only .button-dark:hover{background:#c8ccce}.auth-page,.booking-page,.dashboard-page{min-height:calc(100vh - 94px);padding:70px 10vw;background:#111315;color:#f4f5f5}.auth-panel,.booking-inner,.dashboard-wrap{max-width:1100px;margin:auto}.auth-panel{max-width:520px}.login-page{min-height:calc(100vh - 94px);padding:48px 7vw 64px;background:#08090a;color:#f4f5f5;display:flex;align-items:center}.login-page .auth-panel{width:100%;max-width:470px;margin:0 auto}.back-link{background:none;padding:0;font-size:10px;letter-spacing:.16em;color:#bfc3c4;font-weight:700;margin-bottom:42px}.login-page .eyebrow{color:#aeb3b5}.auth-panel h1{margin:18px 0 14px}.login-page h1{font-size:clamp(48px,6vw,74px);line-height:.94;color:#f5f6f6}.auth-sub{color:#aeb3b5;line-height:1.7;font-size:12px}.auth-panel form,.booking-form{margin-top:28px;display:grid;gap:13px}label{font-size:10px;letter-spacing:.12em;font-weight:700;color:#c3c7c8;display:grid;gap:9px}input,select,textarea{border:1px solid #44484a;border-radius:9px;background:#151719;color:#fff;padding:13px 14px;font-size:13px;outline:none}input:focus,select:focus,textarea:focus{border-color:#c8cccd;box-shadow:0 0 0 3px #c6cacd1f}textarea{min-height:96px}.full{width:100%;justify-content:center}.login-page .button-dark{width:100%;justify-content:center;background:#f3f5f5;color:#090a0b;border-color:#fff;margin-top:6px}.switch-auth{background:none;border-bottom:1px solid #73787a;color:#c3c7c8;padding:8px 0;margin-top:20px;font-size:9px;letter-spacing:.12em}.error{color:#f0a6a0;font-size:12px;display:flex;gap:5px}.booking-layout{display:grid;grid-template-columns:1fr 330px;gap:80px}.slot-grid{display:flex;flex-wrap:wrap;gap:8px}.field-title{font-size:10px;letter-spacing:.12em;font-weight:700;display:block;margin-bottom:10px}.slot{background:#151719;border:1px solid #777b7d;color:#fff;border-radius:999px;padding:12px 16px;font-size:12px}.slot.selected{background:#f4f5f5;color:#08090a}.booking-summary{background:linear-gradient(145deg,#373a3c,#111315 64%,#070809);color:#fff;border-radius:20px;padding:24px;align-self:start}.booking-summary img{width:100%;height:250px;object-fit:cover;border-radius:12px}.booking-summary h3{font:28px 'Bodoni Moda',serif}.summary-line{border-top:1px solid #444;padding:14px 0;display:flex;justify-content:space-between;color:#aaa;font-size:11px}.summary-line strong{color:#fff}.dash-top{display:flex;justify-content:space-between}.dash-heading{display:flex;justify-content:space-between;align-items:end;margin:60px 0 40px}.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.stat-grid>div{background:linear-gradient(145deg,#202325,#111315);border:1px solid #414547;border-radius:16px;padding:23px}.stat-grid span,.stat-grid small{display:block;color:#aeb3b5;font-size:9px;letter-spacing:.14em}.stat-grid strong{display:block;font:36px 'Bodoni Moda',serif;margin:14px 0 7px;color:#fff}.dashboard-card,.admin-card{background:#111315;border:1px solid #3c4042;border-radius:18px;padding:24px;box-shadow:0 14px 35px #0008;margin-top:24px}.card-title{display:flex;align-items:center;gap:9px;border-bottom:1px solid #383c3e;padding-bottom:18px;color:#f2f3f3;font-size:10px;letter-spacing:.16em;font-weight:700}.appointment-line,.admin-table-row{min-height:67px;padding:15px 0;border-bottom:1px solid #303436;display:flex;align-items:center;justify-content:space-between;gap:20px}.appointment-line strong,.admin-table-row strong{font:19px 'Bodoni Moda',serif;color:#f3f4f4}.appointment-line span,.admin-table-row span{display:block;color:#aeb3b5;font-size:10px;margin-top:5px}.status{padding:7px 9px!important;border-radius:999px;background:#34383a;color:#e1e4e5;font-size:9px!important;text-transform:uppercase}.inline-status{border:1px solid #4b5052;border-radius:999px;background:#202325;color:#fff;padding:9px 12px;font-size:9px}.toast{position:fixed;right:24px;bottom:24px;background:#f4f5f5;color:#08090a;border-radius:999px;padding:16px 20px;display:flex;gap:12px;align-items:center;z-index:9;font-size:12px}.admin-shell{min-height:calc(100vh - 94px);display:grid;grid-template-columns:245px 1fr;background:#101213}.admin-sidebar{background:linear-gradient(165deg,#1d2022,#08090a);color:#fff;padding:30px 20px;display:flex;flex-direction:column;min-height:calc(100vh - 94px)}.admin-brand{display:flex;gap:11px;align-items:center;padding:4px 8px 48px}.admin-brand .brand-logo{width:58px;height:58px;border:1px solid #8f9395}.admin-brand strong{display:block;font-size:11px;letter-spacing:.16em;white-space:nowrap}.admin-brand small{display:block;color:#888;font-size:8px;letter-spacing:.18em;margin-top:5px}.admin-tree>span{color:#666;font-size:8px;letter-spacing:.2em;padding:0 12px}.admin-nav{width:100%;display:flex;align-items:center;gap:11px;background:transparent;color:#aaa;padding:14px 12px;margin-top:3px;border-radius:10px;text-align:left;font-size:11px}.admin-nav:hover,.admin-nav.active{background:linear-gradient(90deg,#414447,#1b1d1f);color:#fff;box-shadow:inset 2px 0 #d4d6d7}.admin-sidebar-bottom{margin-top:auto;border-top:1px solid #292929;padding:20px 10px 0}.admin-main{padding:36px 5vw 80px;max-width:1400px;width:100%;background:#101213}.admin-topbar{display:flex;justify-content:space-between;color:#aeb3b5;font-size:9px;letter-spacing:.15em;border-bottom:1px solid #35393b;padding-bottom:20px}.admin-topbar .back-link{margin:0}.admin-heading{display:flex;justify-content:space-between;align-items:end;margin:60px 0 42px}.admin-heading h1{font-size:clamp(55px,6vw,84px);margin:12px 0}.admin-heading p{color:#aeb3b5;font-size:13px}.admin-card .admin-search{margin:20px 0;width:100%}.module-note{font-size:12px;color:#aeb3b5;line-height:1.6;margin:18px 0}.toggle{border-radius:999px;padding:7px 12px;font-size:9px;letter-spacing:.12em;color:#d7dadb;background:#282c2e;border:1px solid #505456}.toggle.active{color:#101314;background:#d8dddd;border-color:#fff}.finance-summary{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:20px 0}.finance-summary span{background:#202426;border:1px solid #3b3f41;border-radius:12px;padding:17px;color:#aeb3b5;font-size:9px;letter-spacing:.11em}.finance-summary strong{display:block;color:#fff;font:22px 'Bodoni Moda',serif;margin-top:9px}.service-editor{background:#1b1e20;border:1px solid #414648;border-radius:16px;padding:20px;margin:20px 0}.editor-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}.editor-heading strong{font:24px 'Bodoni Moda',serif}.editor-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.4fr;gap:14px;margin-bottom:18px}.service-photo-control{display:flex;align-items:center;gap:18px;margin:16px 0}.service-photo-control img{width:110px;height:80px;border-radius:10px;object-fit:cover}.service-admin-row{display:flex;align-items:center;gap:14px}.service-admin-photo{width:54px;height:45px;border-radius:8px;background:#25292b;display:flex;align-items:center;justify-content:center;overflow:hidden;color:#888}.service-admin-photo img{width:100%;height:100%;object-fit:cover}.service-admin-actions{display:flex;gap:8px}.config-preview{display:grid;gap:14px;padding:22px;background:#1b1e20;border:1px solid #3c4042;border-radius:14px}.config-preview strong{font:28px 'Bodoni Moda',serif}.config-preview span,.config-preview p{color:#aeb3b5;font-size:12px}footer{background:#08090a;border-top:1px solid #35393b;color:#aeb3b5;padding:55px 10vw;display:flex;justify-content:space-between;align-items:center;font-size:10px;letter-spacing:.1em}.footer-brand{color:#f2f4f4}.footer-brand .brand-logo{width:58px;height:58px}
+@media(max-width:900px){.site-header{height:78px;padding:0 7vw}.mobile-toggle{display:inline-flex;border:1px solid #666a6c;border-radius:50%;width:38px;height:38px;align-items:center;justify-content:center}.site-header nav{display:none;position:absolute;left:0;right:0;top:78px;border-radius:0 0 18px 18px;padding:25px 7vw;flex-direction:column;align-items:flex-start;background:#0d0f10;border-color:#363a3c}.site-header nav.nav-open{display:flex}.brand-logo{width:48px;height:48px}.hero{display:block;padding:70px 7vw 100px;min-height:calc(100vh - 78px)}.hero h1{font-size:clamp(55px,16vw,95px)}.hero-art{margin-top:75px}.hero-frame{width:62vw;height:52vh}.services-section,.contact-band{padding:85px 7vw}.section-heading,.contact-band{display:block}.service-row{grid-template-columns:24px 34px minmax(0,1fr) 72px 14px;gap:8px;min-height:56px;padding:7px 0}.service-row:hover{padding-left:4px}.service-info p{display:none}.service-info h3{font-size:13px}.service-meta strong{font-size:12px}.service-index{font-size:10px}.service-image{width:29px;height:29px}.booking-layout{grid-template-columns:1fr;gap:45px}.auth-page,.booking-page,.dashboard-page{padding:50px 7vw}.login-page{min-height:calc(100vh - 78px);padding:38px 7vw 55px;align-items:flex-start}.login-page .auth-panel{padding-top:14px}.login-page h1{font-size:clamp(48px,14vw,72px)}.login-page .back-link{margin-bottom:35px}.dash-heading,.admin-heading{display:block;margin:45px 0 30px}.stat-grid{grid-template-columns:1fr 1fr}.admin-shell{display:block}.admin-sidebar{min-height:auto;padding:18px 7vw;display:block}.admin-brand{padding:0 0 18px}.admin-brand .brand-logo{width:50px;height:50px}.admin-tree{display:flex;overflow:auto;gap:5px}.admin-tree>span{display:none}.admin-nav{white-space:nowrap;width:auto;padding:10px 12px}.admin-sidebar-bottom{display:none}.admin-main{padding:25px 7vw 60px}.editor-grid{grid-template-columns:1fr 1fr}.service-admin-row{max-width:65%}.service-admin-actions{display:block}.finance-summary{grid-template-columns:1fr}.contact-only .button-dark{margin-top:28px}footer{padding:40px 7vw;display:block}}
+
+/* ===== Tabela de preços com fotos reais + manutenção secundária ===== */
+.service-cards{max-width:1240px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:28px 22px}
+.service-card{cursor:pointer;color:#f2f3f3;display:flex;flex-direction:column}
+.service-photo{aspect-ratio:4/5;overflow:hidden;border:1px solid #4b4f51;border-radius:2px;background:#151719}
+.service-photo img{width:100%;height:100%;object-fit:cover;object-position:center 38%;filter:grayscale(.18) contrast(1.08) brightness(.92);transition:transform .6s ease,filter .6s ease}
+.service-card:hover .service-photo img{transform:scale(1.04);filter:grayscale(0) contrast(1.05) brightness(1)}
+.service-card:focus-within .service-photo{outline:2px solid #c8ccce;outline-offset:3px}
+.service-card-info{padding:14px 2px 0;display:flex;flex-direction:column;gap:6px}
+.service-card-info h3{font:20px 'Bodoni Moda',serif;margin:0;color:#f0f2f2}
+.service-card-info p{margin:0;font-size:12px;line-height:1.6;color:#8f9597;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.service-card-meta{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #34383a;padding-top:10px;margin-top:4px}
+.service-card-meta strong{font:18px 'Bodoni Moda',serif;color:#fff}
+.service-card-meta span{display:flex;align-items:center;gap:5px;font-size:12px;color:#8f9597}
+.maintenance{max-width:1240px;margin:56px auto 0;border-top:1px solid #34383a}
+.maintenance summary{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:16px;padding:18px 0;color:#c8ccce}
+.maintenance summary::-webkit-details-marker{display:none}
+.maintenance summary span{font:17px 'Bodoni Moda',serif;color:#e4e6e7}
+.maintenance summary small{font-size:12px;color:#8f9597;flex:1}
+.maintenance-chevron{transition:transform .25s;align-self:center}
+.maintenance[open] .maintenance-chevron{transform:rotate(90deg)}
+.maintenance summary:focus-visible{outline:2px solid #c8ccce;outline-offset:2px}
+.maintenance-list{list-style:none;margin:0;padding:0 0 8px;columns:2;column-gap:48px}
+.maintenance-list li{break-inside:avoid}
+.maintenance-list button{all:unset;box-sizing:border-box;width:100%;display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid #26292b;font-size:13px;color:#aeb3b5;cursor:pointer}
+.maintenance-list button:hover,.maintenance-list button:focus-visible{color:#fff}
+.maintenance-price{color:#d7dadb;white-space:nowrap}
+.price-table-action{margin-top:48px}
+@media(max-width:900px){.service-cards{grid-template-columns:repeat(2,1fr);gap:22px 14px}.service-card-info h3{font-size:16px}.service-card-info p{display:none}.maintenance-list{columns:1}.maintenance summary{flex-wrap:wrap}.maintenance summary small{flex-basis:100%;order:3}}
+@media(prefers-reduced-motion:reduce){.service-photo img,.maintenance-chevron{transition:none}.service-card:hover .service-photo img{transform:none}}
+
+/* ===== Hero animado com fotos reais ===== */
+.hero h1 .h-word{display:inline-block;overflow:hidden;padding:.04em .08em .16em 0;margin:-.04em -.08em -.16em 0;vertical-align:top}
+.hero h1 .h-in{display:inline-block;transform:translateY(112%);animation:h-rise 1s cubic-bezier(.2,.75,.2,1) forwards}
+.hero h1 .h-em{font-style:italic;padding-right:.06em;background:linear-gradient(100deg,#8c9295 0%,#d8dcdd 22%,#fff 38%,#d8dcdd 54%,#8c9295 78%,#8c9295 100%);background-size:260% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:h-rise 1s cubic-bezier(.2,.75,.2,1) forwards,h-shine 6s ease-in-out 1.6s infinite}
+@keyframes h-rise{to{transform:translateY(0)}}
+@keyframes h-shine{0%{background-position:100% 0}55%,100%{background-position:0 0}}
+.hero .eyebrow,.hero .hero-intro,.hero .hero-actions{opacity:0;animation:h-fade .9s ease 1s forwards}
+.hero .hero-intro{animation-delay:1.1s}.hero .hero-actions{animation-delay:1.25s}
+@keyframes h-fade{to{opacity:1}}
+.hero-showcase{width:min(31vw,380px);position:relative}
+.showcase-window{all:unset;display:block;box-sizing:border-box;cursor:pointer;position:relative;width:100%;aspect-ratio:3/4.1;max-height:66vh;border-radius:999px 999px 6px 6px;overflow:hidden;background:#151719;box-shadow:0 30px 80px #000b;clip-path:inset(100% 0 0 0);animation:w-open 1.3s cubic-bezier(.65,0,.2,1) .5s forwards}
+@keyframes w-open{to{clip-path:inset(0 0 0 0)}}
+.showcase-window:focus-visible{outline:2px solid #c8ccce;outline-offset:6px}
+.showcase-window img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 35%;opacity:0;transform:scale(1.09) translateX(2.5%);filter:grayscale(.12) contrast(1.06) brightness(.94);transition:opacity 1.1s ease,transform 1.8s cubic-bezier(.2,.65,.25,1),filter 1.1s ease;will-change:opacity,transform}
+.showcase-window img.is-active{opacity:1;transform:scale(1) translateX(0);filter:grayscale(.04) contrast(1.06) brightness(.98)}
+.hero-showcase:before{content:'';position:absolute;left:-14px;right:-14px;top:-14px;bottom:44px;border:1px solid #5d6264;border-radius:999px 999px 8px 8px;pointer-events:none;opacity:0;animation:h-fade 1s ease 1.6s forwards}
+.showcase-caption{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:22px;min-height:20px;font-size:11px;letter-spacing:.14em;color:#d2d4d5}
+.showcase-caption>span{animation:c-in .8s ease both;text-transform:uppercase}
+@keyframes c-in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.showcase-dots{display:flex;gap:6px}
+.showcase-dots button{all:unset;cursor:pointer;width:22px;height:14px;position:relative}
+.showcase-dots button:after{content:'';position:absolute;left:0;right:0;top:6px;height:2px;background:#4b4f51;transition:background .4s}
+.showcase-dots button.on:after{background:#e4e6e7}
+.showcase-dots button:focus-visible{outline:2px solid #c8ccce}
+@media(max-width:900px){.hero-showcase{width:min(72vw,340px);margin:0 auto}.hero-art{margin-top:70px}.showcase-window{max-height:none}}
+@media(prefers-reduced-motion:reduce){.hero h1 .h-in,.hero h1 .h-em{transform:none;animation:none}.hero .eyebrow,.hero .hero-intro,.hero .hero-actions,.hero-showcase:before{opacity:1;animation:none}.showcase-window{clip-path:none;animation:none}.showcase-window img{transition:opacity .01s;transform:none}.showcase-caption>span{animation:none}}
+
+/* =====================================================================
+   REVISÃO GERAL — tipografia, cores, botões, movimento, PWA/admin mobile
+   ===================================================================== */
+:root{--pearl:#efece6;--silver:#c8ccce;--steel:#8c9295;--ink:#08090a;--ease:cubic-bezier(.2,.7,.2,1);--metal:linear-gradient(135deg,#fdfdfd 0%,#d6d9db 34%,#f7f8f8 52%,#aab0b3 100%)}
+body{font-optical-sizing:auto;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+.app-shell h1,.app-shell h2,.app-shell h3{color:var(--pearl);font-optical-sizing:auto}
+.app-shell h1,.app-shell h2{letter-spacing:-.022em}
+.app-shell .hero h1{letter-spacing:-.03em;line-height:.95}
+.app-shell h1 em,.app-shell h2 em{font-weight:400}
+.service-card-info h3,.admin-table-row strong,.service-meta strong{font-optical-sizing:auto;letter-spacing:0}
+.hero-intro,.auth-sub,.section-heading>p{color:#b9bcbd}
+
+/* ---- Botões: prata metálico, brilho que atravessa, seta que desliza ---- */
+.app-shell .button,.app-shell .nav-cta,.app-shell .nav-account,.app-shell .install-app{position:relative;overflow:hidden;isolation:isolate;cursor:pointer;transition:transform .35s var(--ease),box-shadow .35s var(--ease),border-color .3s,color .3s,background-color .3s}
+.app-shell .button:before,.app-shell .nav-cta:before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(110deg,transparent 32%,rgba(255,255,255,.7) 50%,transparent 68%);transform:translateX(-130%);transition:transform .95s var(--ease)}
+.app-shell .nav-cta:before{background:linear-gradient(110deg,transparent 32%,rgba(255,255,255,.22) 50%,transparent 68%)}
+.app-shell .button:hover:before,.app-shell .nav-cta:hover:before,.app-shell .button:focus-visible:before{transform:translateX(130%)}
+.app-shell .button svg,.app-shell .nav-cta svg,.app-shell .text-link svg{transition:transform .35s var(--ease)}
+.app-shell .button:hover svg,.app-shell .nav-cta:hover svg{transform:translate(3px,-3px)}
+.app-shell .text-link:hover svg{transform:translateX(4px)}
+.app-shell .button-light,.app-shell .button-dark{background:var(--metal);color:#0a0b0c;border:1px solid #fff;box-shadow:0 10px 28px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.7)}
+.app-shell .button-light:hover,.app-shell .button-dark:hover{background:var(--metal);transform:translateY(-2px);box-shadow:0 16px 38px rgba(200,204,206,.2),0 10px 28px rgba(0,0,0,.5),inset 0 1px 0 #fff}
+.app-shell .nav-cta{background:linear-gradient(135deg,#3a3d3f,#16181a 50%,#050607);border:1px solid #7a7f82;color:#fff}
+.app-shell .nav-cta:hover{background:linear-gradient(135deg,#4a4d50,#1c1e20 50%,#08090a);transform:translateY(-2px);border-color:var(--silver);box-shadow:0 12px 30px rgba(200,204,206,.14)}
+.app-shell .button:active,.app-shell .nav-cta:active{transform:translateY(0) scale(.97);transition-duration:.1s}
+.app-shell .button:disabled{opacity:.42;cursor:not-allowed;transform:none;box-shadow:none}
+.app-shell .button:disabled:before{display:none}
+.app-shell .text-link{position:relative;border-bottom:0;padding-bottom:8px}
+.app-shell .text-link:after{content:'';position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,#fff,var(--steel));transform:scaleX(.55);transform-origin:left;transition:transform .5s var(--ease)}
+.app-shell .text-link:hover:after{transform:scaleX(1)}
+.app-shell nav a{transition:background .3s,color .3s}
+.app-shell :is(button,a,input,select,textarea,summary,[tabindex]):focus-visible{outline:2px solid var(--silver);outline-offset:3px}
+
+/* ---- Campos ---- */
+.app-shell input,.app-shell select,.app-shell textarea{transition:border-color .3s,box-shadow .3s,background-color .3s}
+.app-shell input:focus,.app-shell select:focus,.app-shell textarea:focus{outline:none;border-color:var(--silver);box-shadow:0 0 0 3px rgba(200,204,206,.14);background:#17191b}
+.slot{transition:background .25s,color .25s,border-color .25s,transform .2s var(--ease)}
+.slot:hover{border-color:var(--silver);transform:translateY(-1px)}
+.slot.selected{background:var(--metal);color:#0a0b0c;border-color:#fff}
+
+/* ---- Cartões de serviço ---- */
+.service-photo{transition:border-color .5s}
+.service-card:hover .service-photo{border-color:#a3a9ac}
+.service-card:hover h3{color:#fff}
+
+/* ---- Entrada suave ao rolar (só títulos e cartões) ---- */
+.js .reveal{opacity:0;transform:translateY(24px);transition:opacity .9s var(--ease),transform .9s var(--ease);transition-delay:var(--d,0s)}
+.js .reveal.in{opacity:1;transform:none}
+
+/* ---- Botão instalar app + topo do admin ---- */
+.topbar-right{display:flex;align-items:center;gap:14px;flex-wrap:wrap;justify-content:flex-end}
+.topbar-logout{display:none}
+.install-app{display:inline-flex;align-items:center;gap:8px;background:transparent;border:1px solid #6b7073;color:#e4e6e7;border-radius:999px;padding:9px 14px;font-size:9px;letter-spacing:.14em;font-weight:700}
+.install-app:hover{border-color:var(--silver);background:#1a1c1e;transform:translateY(-1px)}
+
+/* ---- Painel admin no celular: barra de abas fixa embaixo ---- */
+@media(max-width:900px){
+ .view-admin .site-header,.view-admin footer{display:none}
+ .admin-shell{display:block;min-height:100vh;padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+ .admin-sidebar{position:fixed;left:0;right:0;bottom:0;top:auto;z-index:30;min-height:0;padding:6px 6px calc(6px + env(safe-area-inset-bottom,0px));flex-direction:row;background:rgba(10,11,12,.94);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-top:1px solid #35393b;box-shadow:0 -12px 30px rgba(0,0,0,.5)}
+ .admin-brand,.admin-tree>span,.admin-sidebar-bottom{display:none}
+ .admin-tree{display:flex;gap:2px;width:100%;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+ .admin-tree::-webkit-scrollbar{display:none}
+ .admin-nav{flex:1 0 78px;flex-direction:column;justify-content:center;gap:6px;margin:0;padding:10px 6px;font-size:9px;letter-spacing:.04em;text-align:center;border-radius:12px;white-space:nowrap;box-shadow:none}
+ .admin-nav.active,.admin-nav:hover{background:#1f2224;box-shadow:inset 0 2px #d4d6d7}
+ .admin-main{padding:max(18px,env(safe-area-inset-top,0px)) 5vw 36px}
+ .admin-topbar{align-items:center;justify-content:space-between;flex-wrap:nowrap;gap:10px}
+ .admin-topbar>.back-link{display:inline-flex;white-space:nowrap}
+ .topbar-right{width:auto;flex-wrap:nowrap;gap:8px}
+ .topbar-right>span{display:none}
+ .install-app,.topbar-logout{padding:9px 12px}
+ .topbar-logout{display:inline-flex}
+ .admin-heading{margin:30px 0 24px}
+ .admin-heading h1{font-size:clamp(44px,13vw,64px)}
+ .admin-table-row{flex-wrap:wrap;gap:10px}
+ .admin-card,.dashboard-card{padding:18px;border-radius:16px}
+}
+@media(prefers-reduced-motion:reduce){
+ .js .reveal{opacity:1;transform:none;transition:none}
+ .app-shell .button:before,.app-shell .nav-cta:before{display:none}
+ .app-shell .button,.app-shell .nav-cta,.slot{transition:none}
+}
+.app-shell .hero h1 .h-word{margin-right:.24em}
+.topbar-logout{align-items:center;gap:7px;background:transparent;border:1px solid #4b4f51;color:#c8ccce;border-radius:999px;padding:9px 14px;font-size:9px;letter-spacing:.14em;font-weight:700;cursor:pointer;transition:border-color .3s,color .3s}
+.topbar-logout:hover{border-color:var(--silver);color:#fff}
+
+/* ===== Títulos: contraste do Bodoni controlado (traços finos não somem) ===== */
+.app-shell h1,.app-shell h2{font-optical-sizing:none;font-variation-settings:'opsz' 44}
+
+/* ===== Contato: WhatsApp e Instagram ===== */
+.app-shell .contact-only{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:56px 6vw;align-items:center;min-height:520px;padding:110px 10vw}
+.contact-only .contact-copy h2{margin:18px 0 26px}
+.rise-line{display:block}
+.rise-word{display:inline-block;overflow:hidden;padding:.04em .08em .16em 0;margin:-.04em .22em -.16em 0;vertical-align:top}
+.rise-in{display:inline-block;transform:translateY(112%)}
+.js .reveal.in .rise-in{animation:h-rise 1s var(--ease) both}
+.rise-em{font-style:italic;padding-right:.06em;background:linear-gradient(100deg,#8c9295 0%,#d8dcdd 22%,#fff 38%,#d8dcdd 54%,#8c9295 78%,#8c9295 100%);background-size:260% 100%;-webkit-background-clip:text;background-clip:text;color:transparent}
+.js .reveal.in .rise-em{animation:h-rise 1s var(--ease) both,h-shine 6s ease-in-out 1.8s infinite}
+.contact-channels{display:grid;gap:16px}
+.channel{--mx:50%;--my:0%;position:relative;overflow:hidden;isolation:isolate;display:flex;align-items:center;gap:20px;padding:24px 26px;border:1px solid #3d4143;border-radius:22px;background:radial-gradient(360px circle at var(--mx) var(--my),rgba(255,255,255,.11),transparent 62%),linear-gradient(145deg,#1d2022,#0d0f10);color:#f2f3f3;box-shadow:0 18px 40px rgba(0,0,0,.45);transition:border-color .4s,transform .45s var(--ease),box-shadow .45s var(--ease)}
+.channel:hover,.channel:focus-visible{border-color:#9ea4a7;transform:translateY(-3px);box-shadow:0 26px 54px rgba(0,0,0,.55),0 0 0 1px rgba(200,204,206,.08)}
+.channel:active{transform:translateY(0) scale(.985);transition-duration:.12s}
+.channel-icon{position:relative;flex:0 0 58px;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;border:1px solid #6b7073;color:#f4f5f5;background:#111315}
+.channel-wa .channel-icon:after{content:'';position:absolute;inset:-1px;border-radius:50%;border:1px solid #c8ccce;opacity:0;animation:ping 3.2s ease-out 1.5s infinite}
+@keyframes ping{0%{transform:scale(1);opacity:.55}70%,100%{transform:scale(1.7);opacity:0}}
+.channel-body{display:flex;flex-direction:column;gap:5px;min-width:0;flex:1}
+.channel-body strong{font:400 28px/1 'Bodoni Moda',serif;font-variation-settings:'opsz' 40;color:var(--pearl);letter-spacing:0}
+.channel-body span{font-size:14px;color:#b9bcbd;letter-spacing:.02em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.channel-go{flex:0 0 42px;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;border:1px solid #55595c;color:#e4e6e7;transition:background .4s,color .4s,border-color .4s,transform .4s var(--ease)}
+.channel:hover .channel-go,.channel:focus-visible .channel-go{background:var(--metal);color:#0a0b0c;border-color:#fff;transform:rotate(45deg)}
+.channel-book{justify-self:start;margin-top:14px;background:none;border:0;color:#e3e5e6;cursor:pointer}
+@media(max-width:900px){
+ .app-shell .contact-only{grid-template-columns:1fr;padding:80px 7vw;min-height:0}
+ .channel{padding:20px 18px;gap:14px;border-radius:18px}
+ .channel-icon{flex-basis:50px;width:50px;height:50px}
+ .channel-body strong{font-size:24px}
+ .channel-body span{font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){
+ .rise-in,.js .reveal.in .rise-in,.js .reveal.in .rise-em{transform:none;animation:none}
+ .channel-wa .channel-icon:after{animation:none;display:none}
+ .channel,.channel-go{transition:none}
+}
+
+/* =====================================================================
+   CABEÇALHO — fixo, compacta ao rolar, pílula que desliza, progresso
+   ===================================================================== */
+.app-shell .site-header{position:sticky;top:0;z-index:40;transition:height .45s var(--ease),background-color .45s,box-shadow .45s,border-color .45s}
+.app-shell .site-header.is-scrolled{height:68px;background:rgba(8,9,10,.74);-webkit-backdrop-filter:blur(16px) saturate(1.2);backdrop-filter:blur(16px) saturate(1.2);border-bottom-color:rgba(61,65,67,.7);box-shadow:0 10px 34px rgba(0,0,0,.45)}
+.site-header:after{content:'';position:absolute;left:0;right:0;bottom:-1px;height:1px;background:linear-gradient(90deg,rgba(255,255,255,0),#fff 45%,#8c9295);transform:scaleX(var(--p,0));transform-origin:left;opacity:0;transition:opacity .4s;pointer-events:none}
+.site-header.is-scrolled:after{opacity:1}
+html{scroll-padding-top:72px}
+
+/* logo: brilho que passa de tempos em tempos */
+.brand-mark{position:relative;display:block;flex:none;border-radius:50%;overflow:hidden;line-height:0}
+.brand-mark .brand-logo{transition:width .45s var(--ease),height .45s var(--ease)}
+.is-scrolled .brand-mark .brand-logo{width:44px;height:44px}
+.brand-mark:after{content:'';position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.55) 50%,transparent 65%);transform:translateX(-130%);animation:glint 9s ease-in-out 1.8s infinite;pointer-events:none}
+@keyframes glint{0%,72%{transform:translateX(-130%)}88%,100%{transform:translateX(130%)}}
+.brand-text{transition:letter-spacing .6s var(--ease)}
+.brand:hover .brand-text{letter-spacing:.27em}
+
+/* pílula prateada que desliza entre os links */
+.app-shell .site-header nav{position:relative}
+.nav-indicator{position:absolute;left:0;top:0;width:var(--iw,0);height:var(--ih,0);transform:translate(var(--ix,0),var(--iy,0));border-radius:999px;background:linear-gradient(135deg,#383b3e,#1a1c1e);box-shadow:inset 0 0 0 1px #5d6164,0 6px 18px rgba(0,0,0,.4);opacity:var(--io,0);transition:transform .55s var(--ease),width .55s var(--ease),height .55s var(--ease),opacity .3s;pointer-events:none;z-index:0}
+.site-header nav:not([data-ready]) .nav-indicator{transition:none}
+.app-shell .site-header nav>a{position:relative;z-index:1}
+.app-shell .site-header nav a:hover{background:transparent;color:#fff}
+.site-header nav>a.is-active{color:#fff}
+.app-shell .site-header nav .nav-cta,.app-shell .site-header nav .nav-account{position:relative;z-index:1}
+
+/* entrada do cabeçalho ao abrir o site (e do menu no celular) */
+.app-shell .site-header .brand{animation:hd-in .9s var(--ease) backwards}
+.app-shell .site-header nav{animation:hd-drop .9s var(--ease) .1s backwards}
+.app-shell .site-header nav>a,.app-shell .site-header nav>.nav-cta,.app-shell .site-header nav>.nav-account{animation:hd-item .7s var(--ease) backwards;animation-delay:calc(.35s + var(--i,0)*.08s)}
+@keyframes hd-in{from{opacity:0;transform:translateX(-14px)}}
+@keyframes hd-drop{from{opacity:0;transform:translateY(-16px)}}
+@keyframes hd-item{from{opacity:0;transform:translateY(-6px)}}
+.mobile-toggle svg{animation:tg-in .35s var(--ease)}
+@keyframes tg-in{from{opacity:0;transform:rotate(-80deg) scale(.6)}}
+
+@media(max-width:900px){
+ .app-shell .site-header.is-scrolled{height:60px}
+ .is-scrolled .brand-mark .brand-logo{width:40px;height:40px}
+ .app-shell .site-header nav{position:absolute;left:0;right:0;top:100%;animation:hd-drop .45s var(--ease) backwards}
+ .app-shell .site-header nav>a,.app-shell .site-header nav>.nav-cta,.app-shell .site-header nav>.nav-account{animation:hd-item .5s var(--ease) backwards;animation-delay:calc(.05s + var(--i,0)*.06s)}
+ .nav-indicator{display:none}
+ .site-header nav>a.is-active{color:#fff;box-shadow:inset 0 0 0 1px #3d4143;background:#1a1c1e}
+}
+@media(prefers-reduced-motion:reduce){
+ .brand-mark:after{display:none}
+ .app-shell .site-header .brand,.app-shell .site-header nav,.app-shell .site-header nav>*,.mobile-toggle svg{animation:none}
+ .app-shell .site-header,.nav-indicator,.site-header:after,.brand-text{transition:none}
+}
+
+/* ===== Permanecer conectado ===== */
+.app-shell label.remember{display:flex;flex-direction:row;align-items:center;gap:12px;cursor:pointer;font-size:12px;letter-spacing:.03em;text-transform:none;color:#c8ccce;font-weight:500}
+.remember input{position:absolute;opacity:0;width:0;height:0;padding:0;border:0}
+.remember .box{flex:none;width:20px;height:20px;border-radius:6px;border:1px solid #6b7073;display:grid;place-items:center;color:#0a0b0c;transition:background .3s,border-color .3s}
+.remember .box svg{opacity:0;transform:scale(.5);transition:opacity .25s,transform .35s var(--ease)}
+.remember input:checked+.box{background:var(--metal);border-color:#fff}
+.remember input:checked+.box svg{opacity:1;transform:none}
+.remember input:focus-visible+.box{outline:2px solid var(--silver);outline-offset:3px}
+
+/* ===== Meus agendamentos (cliente) ===== */
+.appt-group+.appt-group{margin-top:28px}
+.appt-list{display:grid;gap:14px;margin-top:20px}
+.appt-card{border:1px solid #3d4143;border-radius:20px;padding:24px 26px;background:linear-gradient(145deg,#1b1e20,#0e1011);box-shadow:0 14px 34px rgba(0,0,0,.4)}
+.appt-card.is-past{opacity:.72}
+.appt-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+.appt-head h3{font:400 28px/1.05 'Bodoni Moda',serif;font-variation-settings:'opsz' 40;margin:0;color:var(--pearl)}
+.appt-status{display:inline-flex;align-items:center;gap:8px;font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#d2d4d5;border:1px solid #4b4f51;border-radius:999px;padding:7px 12px;white-space:nowrap}
+.appt-status:before{content:'';width:7px;height:7px;border-radius:50%;background:var(--dot,#8c9295)}
+.appt-info{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:20px 28px;margin:22px 0 0;padding-top:20px;border-top:1px solid #34383a}
+.appt-info dt{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#8f9597;margin:0 0 7px}
+.appt-info dd{margin:0;font:400 21px/1.2 'Bodoni Moda',serif;font-variation-settings:'opsz' 28;color:#f2f3f3}
+.appt-notes{margin:18px 0 0;font-size:13px;color:#aeb3b5;line-height:1.7}
+.appt-more{margin-top:22px;background:none;border:0;color:#e3e5e6;cursor:pointer}
+.empty-dashboard .button{margin-top:18px}
+@media(max-width:700px){.appt-card{padding:20px 18px;border-radius:16px}.appt-head{flex-direction:column;gap:12px}.appt-head h3{font-size:25px}.appt-info{grid-template-columns:1fr 1fr}}
+
+/* botão Sair (área da cliente e menu lateral do admin) */
+.app-shell .logout:not(.topbar-logout){display:inline-flex;align-items:center;gap:8px;background:transparent;border:1px solid #4b4f51;color:#c8ccce;border-radius:999px;padding:10px 16px;font-size:10px;letter-spacing:.14em;font-weight:700;cursor:pointer;transition:border-color .3s,color .3s}
+.app-shell .logout:not(.topbar-logout):hover{border-color:var(--silver);color:#fff}
+.app-shell .dash-top{display:flex;justify-content:space-between;align-items:center}
+.app-shell .site-header nav>a{display:inline-flex;align-items:center;gap:7px}
+
+
+
+/* ===== GB BEAUTY — painel administrativo compacto ===== */
+
+.admin-main .button {
+  min-height: 36px;
+  padding: 9px 13px;
+  gap: 7px;
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  box-shadow: none;
+}
+
+.admin-main .button svg {
+  width: 14px;
+  height: 14px;
+}
+
+.admin-main .admin-heading {
+  margin: 38px 0 28px;
+  gap: 18px;
+}
+
+.admin-main .admin-heading h1 {
+  font-size: clamp(42px, 4.5vw, 66px);
+  line-height: 1;
+}
+
+.admin-main .admin-card,
+.admin-main .dashboard-card {
+  padding: 20px;
+  margin-top: 18px;
+  border-radius: 14px;
+}
+
+.admin-main .card-title {
+  padding-bottom: 14px;
+}
+
+.admin-main .stat-grid {
+  gap: 12px;
+}
+
+.admin-main .stat-grid > div {
+  padding: 17px;
+  border-radius: 12px;
+}
+
+.admin-main .stat-grid strong {
+  font-size: 29px;
+  margin: 10px 0 5px;
+}
+
+.admin-main .toggle,
+.admin-main .inline-status {
+  min-height: 30px;
+  padding: 6px 10px;
+  font-size: 9px;
+}
+
+.admin-main .service-editor {
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.admin-main .editor-grid {
+  gap: 12px;
+}
+
+.admin-main input:not([type="checkbox"]):not([type="file"]),
+.admin-main select,
+.admin-main textarea {
+  padding: 10px 12px;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.admin-main textarea {
+  min-height: 76px;
+}
+
+.admin-main .finance-summary {
+  gap: 10px;
+  margin: 16px 0;
+}
+
+.admin-main .finance-summary span {
+  padding: 13px;
+  border-radius: 10px;
+}
+
+.admin-main .finance-summary strong {
+  font-size: 19px;
+}
+
+.admin-main .appointment-line,
+.admin-main .admin-table-row {
+  min-height: 56px;
+  padding: 12px 0;
+  gap: 12px;
+}
+
+.admin-main .appointment-line strong,
+.admin-main .admin-table-row strong {
+  font-size: 17px;
+}
+
+.admin-main .service-admin-actions {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.admin-main .service-admin-actions .toggle {
+  letter-spacing: 0.04em;
+}
+
+.admin-main .module-note {
+  font-size: 11px;
+  margin: 14px 0;
+}
+
+.admin-main button:focus-visible,
+.admin-main input:focus-visible,
+.admin-main select:focus-visible,
+.admin-main textarea:focus-visible {
+  outline-offset: 2px;
+}
+
+@media (max-width: 900px) {
+  .admin-main {
+    padding: 20px 5vw 32px;
+  }
+
+  .admin-main .admin-heading {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 26px 0 20px;
+  }
+
+  .admin-main .admin-heading h1 {
+    font-size: clamp(38px, 10vw, 54px);
+  }
+
+  .admin-main .admin-card,
+  .admin-main .dashboard-card {
+    padding: 15px;
+  }
+
+  .admin-main .stat-grid > div {
+    padding: 14px;
+  }
+
+  .admin-main .stat-grid strong {
+    font-size: 25px;
+    overflow-wrap: anywhere;
+  }
+
+  .admin-main .editor-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .admin-main .service-admin-actions {
+    justify-content: flex-start;
+  }
+
+  .admin-main .finance-summary {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .admin-main .service-admin-actions .toggle {
+    padding: 7px 9px;
+  }
+}
+
+@media (max-width: 480px) {
+  .admin-main .editor-grid,
+  .admin-main .finance-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-main .admin-heading > .button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .admin-main .appointment-line {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .admin-main .appointment-line .inline-status {
+    max-width: 100%;
+  }
+
+  .admin-main .service-admin-row {
+    max-width: 100%;
+  }
+}
+
+
+/* ===== GB BEAUTY — navegação mobile fixa na parte inferior ===== */
+@media (max-width: 900px) {
+  .view-admin .site-header,
+  .view-admin footer {
+    display: none !important;
+  }
+
+  .view-admin .admin-shell,
+  .admin-shell {
+    display: block !important;
+    min-height: 100dvh;
+    padding-bottom: calc(86px + env(safe-area-inset-bottom, 0px)) !important;
+  }
+
+  .view-admin .admin-sidebar,
+  .admin-sidebar {
+    position: fixed !important;
+    inset: auto 0 0 0 !important;
+    z-index: 1000 !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: stretch !important;
+    width: 100% !important;
+    min-height: 0 !important;
+    height: auto !important;
+    padding: 7px 6px calc(7px + env(safe-area-inset-bottom, 0px)) !important;
+    margin: 0 !important;
+    background: rgba(10, 11, 12, .97) !important;
+    border-top: 1px solid #383b3d !important;
+    box-shadow: 0 -10px 28px rgba(0, 0, 0, .42) !important;
+    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+  }
+
+  .admin-sidebar .admin-brand,
+  .admin-sidebar .admin-sidebar-bottom,
+  .admin-sidebar .admin-tree > span {
+    display: none !important;
+  }
+
+  .admin-sidebar .admin-tree {
+    display: flex !important;
+    align-items: stretch !important;
+    gap: 3px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .admin-sidebar .admin-tree::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .admin-sidebar .admin-nav {
+    flex: 0 0 68px !important;
+    width: 68px !important;
+    min-width: 68px !important;
+    min-height: 58px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 5px !important;
+    margin: 0 !important;
+    padding: 7px 3px !important;
+    border: 1px solid transparent !important;
+    border-radius: 10px !important;
+    background: transparent !important;
+    color: #aeb3b5 !important;
+    box-shadow: none !important;
+    font-size: 9px !important;
+    line-height: 1.15 !important;
+    letter-spacing: 0 !important;
+    text-align: center !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+  }
+
+  .admin-sidebar .admin-nav svg {
+    width: 17px !important;
+    height: 17px !important;
+    flex: 0 0 auto;
+  }
+
+  .admin-sidebar .admin-nav.active {
+    color: #f5f1ea !important;
+    background: #202223 !important;
+    border-color: #343738 !important;
+    box-shadow: inset 0 2px #d8c6a7 !important;
+  }
+
+  .admin-sidebar .admin-nav:focus-visible {
+    outline: 2px solid #d8c6a7 !important;
+    outline-offset: -2px;
+  }
+
+  .admin-main {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    padding: max(18px, env(safe-area-inset-top, 0px)) 16px 30px !important;
+  }
+
+  .admin-main .admin-topbar {
+    gap: 8px;
+    padding-bottom: 14px;
+  }
+
+  .admin-main .admin-heading {
+    margin: 28px 0 22px !important;
+  }
+
+  .admin-main .admin-heading h1 {
+    font-size: clamp(38px, 11vw, 56px) !important;
+    line-height: 1;
+  }
+
+  .admin-main .button,
+  .admin-main button:not(.admin-nav):not(.mobile-toggle) {
+    min-height: 36px;
+    padding: 9px 12px;
+    font-size: 9px;
+    letter-spacing: .06em;
+  }
+}
+
+@media (max-width: 420px) {
+  .admin-main {
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+  }
+
+  .admin-sidebar .admin-nav {
+    flex-basis: 63px !important;
+    width: 63px !important;
+    min-width: 63px !important;
+    min-height: 56px !important;
+    font-size: 8px !important;
+  }
+
+  .admin-main .admin-topbar .back-link {
+    font-size: 8px;
+    letter-spacing: .08em;
+  }
+
+  .admin-main .topbar-right {
+    gap: 5px;
+  }
+
+  .admin-main .install-app,
+  .admin-main .topbar-logout {
+    padding: 8px 9px !important;
+    font-size: 8px !important;
+  }
+
+  .admin-main .admin-card,
+  .admin-main .dashboard-card {
+    padding: 14px !important;
+  }
+}
+
+/* ===== Agenda: dados completos da cliente e confirmação de atendimento ===== */
+.admin-main .appointment-line {
+  align-items: flex-start;
+}
+.admin-main .appointment-details {
+  flex: 1 1 280px;
+  min-width: 0;
+}
+.admin-main .appointment-details strong {
+  display: block;
+  line-height: 1.35;
+}
+.admin-main .appointment-details span {
+  overflow-wrap: anywhere;
+  line-height: 1.5;
+}
+.admin-main .appointment-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.admin-main .appointment-actions .toggle {
+  min-height: 34px;
+  white-space: normal;
+}
+@media (max-width: 900px) {
+  .admin-main .appointment-line {
+    gap: 12px;
+  }
+  .admin-main .appointment-actions {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+
+/* Botão voltar no mobile: retorna ao dashboard sem encerrar a sessão */
+.mobile-dashboard-back{display:none}
+@media(max-width:900px){
+ .desktop-public-back{display:none!important}
+ .mobile-dashboard-back{display:inline-flex!important;align-items:center;min-height:36px;padding:8px 11px;margin:0;border:1px solid #4b4f51;border-radius:999px;background:#1b1e20;color:#f0f1f1;font-size:9px;letter-spacing:.08em}
+ .admin-topbar{gap:8px}
+ .topbar-right{gap:6px}
+}
+
+
+/* Navegação mobile refinada: sete atalhos cabem na largura e o retorno abre o site público. */
+.mobile-dashboard-back{display:none}
+@media(max-width:900px){
+ .desktop-public-back{display:none!important}
+ .mobile-dashboard-back{display:inline-flex!important;align-items:center;justify-content:center;min-height:36px;padding:8px 11px;margin:0;border:1px solid #4b4f51;border-radius:999px;background:#1b1e20;color:#f0f1f1;font-size:9px;letter-spacing:.06em;white-space:nowrap}
+ .admin-main .admin-topbar{align-items:center;gap:8px}
+ .admin-main .topbar-right{display:flex;align-items:center;gap:6px;min-width:0}
+ .admin-main .topbar-right>span{display:none}
+ .admin-sidebar .admin-tree{display:flex!important;gap:2px!important;overflow-x:hidden!important;justify-content:space-between!important}
+ .admin-sidebar .admin-nav{flex:1 1 0!important;width:0!important;min-width:0!important;max-width:none!important;padding:7px 1px!important;gap:5px!important;overflow:hidden!important;overflow-wrap:normal!important;word-break:normal!important}
+ .admin-sidebar .admin-nav-label{display:block;width:100%;font-size:clamp(6px,2vw,8px);line-height:1.15;white-space:nowrap;letter-spacing:-.025em;text-align:center;overflow:hidden;text-overflow:clip}
+ .admin-sidebar .admin-nav svg{width:17px!important;height:17px!important}
+ .admin-sidebar .admin-nav.active{border-radius:10px!important;box-shadow:inset 0 2px #d8c6a7!important}
+}
+@media(max-width:380px){
+ .admin-sidebar .admin-nav{padding-left:0!important;padding-right:0!important}
+ .admin-sidebar .admin-nav-label{font-size:6.5px;letter-spacing:-.04em}
+ .admin-sidebar .admin-nav svg{width:16px!important;height:16px!important}
+}
+
+/* Indicadores de desempenho e filtros financeiros */
+.insights-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:22px}
+.finance-period-toolbar{max-width:280px;margin:20px 0 8px}
+.finance-period-toolbar label{gap:8px}
+.finance-period-toolbar select{width:100%}
+.admin-main .stat-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.admin-main .finance-summary{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:900px){.insights-grid{grid-template-columns:1fr;gap:0}.admin-main .stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.admin-main .finance-summary{grid-template-columns:repeat(2,minmax(0,1fr))}.finance-period-toolbar{max-width:none}.finance-period-toolbar select{min-height:42px}}
+
+/* Catálogo de serviços do admin: compacto, visual e responsivo */
+.services-quick-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:18px 0}
+.services-quick-stats>div{padding:13px 15px;border:1px solid #373c3e;border-radius:12px;background:#191c1e}
+.services-quick-stats strong{display:block;font:26px 'Bodoni Moda',serif;color:#f5f5f5}
+.services-quick-stats span{display:block;font-size:8px;letter-spacing:.12em;color:#aeb3b5;margin-top:4px}
+.services-list-toolbar{display:flex;gap:10px;margin:16px 0 20px}
+.services-list-toolbar input{flex:1;min-width:0}.services-list-toolbar select{min-width:120px}
+.services-admin-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
+.services-admin-card{min-width:0;overflow:hidden;border:1px solid #383d3f;border-radius:14px;background:#191c1e}
+.services-admin-card-photo{height:155px;position:relative;background:#25292b;overflow:hidden}
+.services-admin-card-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.services-live-pill,.services-off-pill{position:absolute;left:10px;top:10px;padding:5px 8px;border-radius:999px;background:#e8e9e9;color:#141617;font-size:8px;letter-spacing:.1em;font-weight:800}
+.services-off-pill{background:#34383a;color:#e1e3e4;border:1px solid #64696b}
+.services-admin-card-body{padding:13px}
+.services-admin-card-body>strong{font:18px 'Bodoni Moda',serif;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.services-admin-meta{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:9px}
+.services-admin-meta b{font:18px 'Bodoni Moda',serif;color:#f4f5f5}.services-admin-meta span,.services-admin-card-body small{font-size:10px;color:#aeb3b5}
+.services-admin-card-body small{display:block;margin-top:5px}
+.services-admin-card-actions{display:flex;gap:7px;margin-top:13px}.services-admin-card-actions .toggle{display:inline-flex;align-items:center;justify-content:center;gap:5px;flex:1;padding:8px 6px;font-size:8px}
+@media(max-width:1100px){.services-admin-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.services-admin-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.services-admin-card-photo{height:125px}.services-admin-card-body{padding:10px}.services-admin-card-body>strong{font-size:15px}.services-admin-meta b{font-size:15px}.services-admin-card-actions{flex-direction:column}.services-admin-card-actions .toggle{width:100%}.services-list-toolbar select{min-width:100px;padding:10px}.services-quick-stats{gap:7px}.services-quick-stats>div{padding:10px}.services-quick-stats strong{font-size:22px}}
+
+/* Financeiro mais simples: foco nos três números principais e formulários objetivos */
+.admin-main .finance-summary-compact{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0 20px}
+.admin-main .finance-summary-compact span{padding:14px 16px;font-size:9px}
+.admin-main .finance-summary-compact strong{font-size:25px;margin-top:7px}
+.admin-main .finance-period-toolbar{max-width:220px;margin:14px 0 8px}
+.admin-main .finance-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:12px 0}
+.admin-main .finance-toolbar select{max-width:230px}
+.admin-main .service-editor label{margin-bottom:12px}
+@media(max-width:900px){.admin-main .finance-summary-compact{grid-template-columns:1fr 1fr}.admin-main .finance-summary-compact span:last-child{grid-column:1/-1}.admin-main .finance-period-toolbar{max-width:none}.admin-main .finance-toolbar{align-items:stretch;flex-wrap:wrap}.admin-main .finance-toolbar select{max-width:none;flex:1;min-width:160px}}
+
+/* Financeiro: ações compactas e categorias claras */
+.finance-header-actions{display:flex;align-items:center;justify-content:flex-end;gap:10px;flex-wrap:wrap}.finance-header-actions .button{padding:11px 14px;font-size:9px}.finance-header-actions .toggle{display:inline-flex;align-items:center;gap:6px;min-height:38px}.finance-toolbar{gap:12px}.finance-toolbar .toggle{white-space:nowrap}@media(max-width:900px){.finance-header-actions{justify-content:flex-start;margin-top:18px}.finance-header-actions .button{padding:10px 12px}.admin-main .finance-summary-compact{grid-template-columns:1fr 1fr}}
+
+
+
+.client-support-card{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:22px}.client-support-card h2{font-family:var(--font-display,Georgia,serif);font-size:clamp(26px,3vw,38px);font-weight:400;margin:8px 0}.client-support-card p{color:var(--muted,#a4a4a4);margin:0;max-width:520px}.client-support-card .button{white-space:nowrap;text-decoration:none;display:inline-flex;align-items:center;gap:8px}@media(max-width:640px){.client-support-card{align-items:flex-start;flex-direction:column}}
+
+/* ===== Acabamento premium: entrada suave, galeria viva e contato refinado ===== */
+.app-shell .contact-only{position:relative;isolation:isolate;overflow:hidden;background:radial-gradient(ellipse at 82% 42%,rgba(175,184,188,.075),transparent 38%),linear-gradient(180deg,#08090a 0%,#0b0d0e 55%,#08090a 100%)}
+.app-shell .contact-only:before{content:'';position:absolute;z-index:-1;right:-12%;top:8%;width:min(48vw,620px);aspect-ratio:1;border:1px solid rgba(200,204,206,.08);border-radius:50%;box-shadow:0 0 0 34px rgba(200,204,206,.018),0 0 0 70px rgba(200,204,206,.012);pointer-events:none;animation:contact-orbit 18s ease-in-out infinite alternate}
+@keyframes contact-orbit{from{transform:translate3d(0,12px,0) scale(.97);opacity:.45}to{transform:translate3d(-22px,-12px,0) scale(1.04);opacity:.9}}
+.contact-only .contact-copy{position:relative}
+.contact-only .contact-copy:after{content:'';display:block;width:74px;height:1px;margin-top:28px;background:linear-gradient(90deg,#f1f2f2,transparent);transform-origin:left;animation:line-grow 1.1s var(--ease) .45s both}
+@keyframes line-grow{from{transform:scaleX(0);opacity:0}to{transform:scaleX(1);opacity:1}}
+.contact-channels{perspective:1000px;gap:14px}
+.js .contact-channels .channel{opacity:0;transform:translate3d(0,24px,0) scale(.985);transition:opacity .8s var(--ease),transform .8s var(--ease),border-color .4s,box-shadow .4s;transition-delay:var(--d,0s)}
+.js .contact-only.in .contact-channels .channel{opacity:1;transform:translate3d(0,0,0) scale(1)}
+.js .contact-only.in .contact-channels .channel:hover{transform:translate3d(0,-5px,0) scale(1.008)}
+.channel{min-height:108px;border-radius:20px;padding:23px 25px;background:linear-gradient(115deg,rgba(255,255,255,.055),transparent 42%),radial-gradient(320px circle at var(--mx) var(--my),rgba(255,255,255,.12),transparent 65%),linear-gradient(145deg,#1a1d1f,#0b0d0e);box-shadow:0 20px 46px rgba(0,0,0,.32),inset 0 1px 0 rgba(255,255,255,.055)}
+.channel:before{content:'';position:absolute;z-index:-1;inset:0;background:linear-gradient(105deg,transparent 20%,rgba(255,255,255,.11) 48%,transparent 70%);transform:translateX(-125%);transition:transform 1s var(--ease);pointer-events:none}
+.channel:hover:before,.channel:focus-visible:before{transform:translateX(125%)}
+.channel:after{content:'';position:absolute;inset:0;border-radius:inherit;border:1px solid rgba(255,255,255,.035);pointer-events:none}
+.channel-icon{flex-basis:56px;width:56px;height:56px;border-color:#747a7d;background:linear-gradient(145deg,#202426,#0b0d0e);box-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 7px 18px rgba(0,0,0,.25);transition:transform .5s var(--ease),border-color .4s,background .4s}
+.channel:hover .channel-icon{transform:translateY(-1px) scale(1.045);border-color:#d5d9da;background:linear-gradient(145deg,#303537,#101213)}
+.channel-body strong{font-size:30px;letter-spacing:-.025em;transition:letter-spacing .4s var(--ease)}
+.channel:hover .channel-body strong{letter-spacing:0}
+.channel-body span{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:#aeb4b6}
+.channel-go{width:44px;height:44px;flex-basis:44px;background:rgba(0,0,0,.16)}
+.channel-go svg{transition:transform .4s var(--ease)}
+.channel:hover .channel-go svg{transform:translate(2px,-2px)}
+.channel-wa .channel-icon:after{animation:ping 3.8s ease-out 1.5s infinite}
+.channel-book{margin-top:18px;position:relative;transition:color .3s,gap .3s,border-color .3s}
+.channel-book:hover{color:#fff;gap:11px;border-color:#fff}
+/* Fotografias: entrada em cascata e movimento suave ao passar o cursor */
+.js .service-card.reveal{transition:opacity .85s var(--ease),transform .85s var(--ease),border-color .35s,box-shadow .35s;transition-delay:var(--d,0s)}
+.service-card{transform-origin:center bottom}
+.service-photo{overflow:hidden;background:#151719}
+.service-photo img{transform:scale(1.035);transition:transform 1.1s cubic-bezier(.2,.7,.2,1),filter .7s ease}
+.service-card:hover .service-photo img{transform:scale(1.105);filter:grayscale(0) contrast(1.04) brightness(1.03)}
+.showcase-window img.is-active{animation:photo-drift 7s ease-out both}
+@keyframes photo-drift{from{transform:scale(1.09)}to{transform:scale(1)}}
+.showcase-dots button.on:after{animation:dot-breathe 2.8s ease-in-out infinite}
+@keyframes dot-breathe{0%,100%{opacity:.65}50%{opacity:1}}
+@media(max-width:900px){.app-shell .contact-only:before{right:-35%;top:10%;width:90vw}.channel{min-height:96px;padding:19px 17px}.channel-icon{flex-basis:50px;width:50px;height:50px}.channel-body strong{font-size:25px}}
+@media(prefers-reduced-motion:reduce){
+ .app-shell .contact-only:before,.contact-only .contact-copy:after,.channel-wa .channel-icon:after,.showcase-dots button.on:after{animation:none}
+ .js .contact-channels .channel,.js .contact-only.in .contact-channels .channel{opacity:1;transform:none;transition:none}
+ .channel:before{display:none}.service-photo img,.service-card:hover .service-photo img,.showcase-window img.is-active{animation:none;transform:none;transition:none}
+}
+
+/* Galeria da capa: transição elegante entre fotos reais dos serviços */
+.showcase-window img:not(.is-active){transform:scale(1.06) translateX(-2%)}
+.showcase-dots button{width:18px}
+.showcase-caption>span{transition:opacity .35s ease}
+@media(prefers-reduced-motion:reduce){.showcase-window img{transform:none!important;transition:opacity .01s!important}}
+
+/* ===== Mobile polish: touch-friendly controls and seamless bottom navigation ===== */
+html, body, #root { background: #0b0c0d; }
+@media (max-width: 900px) {
+  body { overflow-x: hidden; }
+  .app-shell { overflow-x: clip; }
+  /* Bottom navigation should blend into the page; no bright safe-area strip. */
+  .admin-shell { background: #0b0c0d !important; }
+  .admin-sidebar,
+  .view-admin .admin-sidebar {
+    background: #0b0c0d !important;
+    border-top: 1px solid #292c2e !important;
+    box-shadow: 0 -8px 22px rgba(0,0,0,.24) !important;
+    padding-bottom: max(7px, env(safe-area-inset-bottom, 0px)) !important;
+  }
+  .admin-sidebar::before,
+  .admin-sidebar::after { background: transparent !important; box-shadow: none !important; }
+
+  /* Buttons are easier to tap and wrap instead of overflowing on narrow screens. */
+  .app-shell button,
+  .app-shell .button,
+  .app-shell .nav-cta,
+  .app-shell .nav-account,
+  .app-shell .install-app,
+  .app-shell .logout,
+  .app-shell .text-link,
+  .app-shell a.button {
+    max-width: 100%;
+    min-height: 42px;
+    white-space: normal;
+    line-height: 1.35;
+    touch-action: manipulation;
+  }
+  .app-shell .site-header { padding-left: 16px; padding-right: 16px; }
+  .app-shell .site-header nav { gap: 8px; }
+  .app-shell .site-header nav a,
+  .app-shell .site-header nav .nav-cta,
+  .app-shell .site-header nav .nav-account { min-height: 42px; justify-content: center; }
+
+  /* Admin top controls wrap into a tidy, readable row. */
+  .admin-main .admin-topbar { display:flex; flex-wrap:wrap; align-items:center; }
+  .admin-main .admin-topbar > .back-link,
+  .admin-main .admin-topbar > .mobile-dashboard-back { flex: 0 1 auto; }
+  .admin-main .topbar-right { display:flex; flex-wrap:wrap; margin-left:auto; }
+  .admin-main .topbar-right button,
+  .admin-main .topbar-right a,
+  .admin-main .install-app,
+  .admin-main .topbar-logout { min-height:40px !important; padding:9px 11px !important; border-radius:999px; }
+  .admin-main .button,
+  .admin-main button:not(.admin-nav):not(.mobile-toggle) { min-height:40px; }
+
+  /* Keep cards and forms within the viewport on every admin tab. */
+  .admin-main .admin-card,
+  .admin-main .dashboard-card,
+  .admin-main .admin-panel,
+  .admin-main .card { min-width:0; max-width:100%; }
+  .admin-main input,
+  .admin-main select,
+  .admin-main textarea { min-width:0; max-width:100%; font-size:16px; }
+}
+@media (max-width: 480px) {
+  .app-shell .button,
+  .app-shell .nav-cta,
+  .app-shell .nav-account,
+  .app-shell .install-app,
+  .app-shell .logout { padding:10px 13px; font-size:10px; letter-spacing:.07em; }
+  .app-shell .site-header { min-height:64px; }
+  .admin-main .admin-heading { margin-top:22px !important; }
+  .admin-main .admin-topbar .back-link,
+  .admin-main .mobile-dashboard-back { min-height:40px; padding:9px 12px; }
+  .admin-main .topbar-right { gap:6px; }
+  .admin-main .topbar-right .install-app,
+  .admin-main .topbar-right .topbar-logout { font-size:8px !important; }
+  .client-support-card { gap:16px; }
+  .client-support-card .button { width:100%; justify-content:center; }
+  .services-list-toolbar { flex-direction:column; }
+  .services-list-toolbar input,
+  .services-list-toolbar select { width:100%; min-height:44px; }
+}
+
+/* ===== Correção compacta da agenda no celular: evita cartões esticados ===== */
+@media (max-width: 600px) {
+  .admin-main .appointment-line {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+    gap: 10px !important;
+    min-height: 0 !important;
+    height: auto !important;
+    padding: 14px 0 !important;
+  }
+  .admin-main .appointment-details {
+    flex: 0 1 auto !important;
+    width: 100% !important;
+    min-height: 0 !important;
+    height: auto !important;
+  }
+  .admin-main .appointment-details strong {
+    font-size: 17px !important;
+    line-height: 1.25 !important;
+    margin: 0 0 5px !important;
+  }
+  .admin-main .appointment-details span {
+    margin-top: 4px !important;
+    font-size: 10px !important;
+    line-height: 1.45 !important;
+  }
+  .admin-main .appointment-actions {
+    display: flex !important;
+    flex: 0 1 auto !important;
+    width: 100% !important;
+    min-height: 0 !important;
+    height: auto !important;
+    margin-top: 2px !important;
+    padding: 0 !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 7px !important;
+  }
+  .admin-main .appointment-actions .toggle,
+  .admin-main .appointment-actions .button,
+  .admin-main .appointment-actions .inline-status {
+    flex: 0 1 auto !important;
+    width: auto !important;
+    min-width: 0 !important;
+    min-height: 34px !important;
+    height: auto !important;
+    padding: 8px 10px !important;
+    font-size: 9px !important;
+    line-height: 1.25 !important;
+    white-space: normal !important;
+  }
+  .admin-main .appointment-actions .inline-status {
+    max-width: 48% !important;
+  }
+  .admin-main .appointment-finished {
+    display: block !important;
+    margin: 2px 0 0 !important;
+    font-size: 10px !important;
+    line-height: 1.4 !important;
+  }
+  .admin-main .module-note {
+    margin: 10px 0 12px !important;
+    line-height: 1.45 !important;
+  }
+}
+
+
+/* Administradores: lista enxuta e ações compactas, especialmente no celular. */
+.admin-role-actions{display:flex;align-items:center;justify-content:flex-end;gap:7px;flex-wrap:nowrap}
+.admin-role-badge{display:inline-flex;align-items:center;justify-content:center;padding:4px 7px!important;font-size:8px!important;line-height:1.2;letter-spacing:.035em;white-space:nowrap;max-width:116px}
+.admin-remove-icon{display:inline-flex!important;align-items:center;justify-content:center;width:34px;min-width:34px;height:34px;padding:0!important;border-radius:50%!important}
+.admin-remove-icon svg{width:14px;height:14px}
+@media(max-width:600px){
+  .admin-role-actions{gap:5px}
+  .admin-role-badge{font-size:7px!important;padding:4px 6px!important;max-width:92px;white-space:normal;text-align:center}
+  .admin-remove-icon{width:32px;min-width:32px;height:32px}
+}
+
+/* Clientes: visão prática de relacionamento e histórico de atendimentos */
+.client-overview-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:18px 0}
+.client-overview-stats>div{padding:14px 15px;border:1px solid #373c3e;border-radius:12px;background:#191c1e;min-width:0}
+.client-overview-stats strong{display:block;font:25px 'Bodoni Moda',serif;color:#f4f5f5;overflow-wrap:anywhere}
+.client-overview-stats span,.client-metrics span{display:block;color:#aeb3b5;font-size:8px;letter-spacing:.11em;margin-top:5px}
+.client-directory{display:grid;gap:12px;margin-top:18px}
+.client-directory-card{border:1px solid #383d3f;border-radius:13px;padding:16px;background:linear-gradient(145deg,#171a1c,#101213)}
+.client-directory-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding-bottom:12px;border-bottom:1px solid #303436}
+.client-directory-head h3{font:22px 'Bodoni Moda',serif;margin:0 0 5px;color:#f4f5f5}
+.client-directory-head p{font-size:11px;color:#aeb3b5;margin:0;overflow-wrap:anywhere;line-height:1.6}
+.client-joined{font-size:9px;color:#aeb3b5;white-space:nowrap}
+.client-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;padding:13px 0}
+.client-metrics>div{min-width:0}.client-metrics strong{display:block;font-size:13px;color:#f3f4f4;margin-top:5px;overflow-wrap:anywhere}
+.client-next-visit{border:1px solid #45494b;background:#202426;border-radius:8px;padding:10px 12px;font-size:11px;line-height:1.6;color:#c9cdce;margin:0 0 12px}
+.client-history-details{border-top:1px solid #303436;padding-top:11px}
+.client-history-details summary{cursor:pointer;list-style:none;color:#e2e4e5;font-size:10px;letter-spacing:.06em;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.client-history-details summary::-webkit-details-marker{display:none}
+.client-history-details summary:after{content:'+';font-size:17px;color:#bfc3c4}
+.client-history-details[open] summary:after{content:'−'}
+.client-history-list{display:grid;gap:0;margin-top:8px}
+.client-history-item{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid #2d3133}
+.client-history-item:last-child{border-bottom:0}
+.client-history-item>div:first-child{min-width:0}
+.client-history-item strong{display:block;font:16px 'Bodoni Moda',serif;color:#f1f2f2}
+.client-history-item span,.client-history-item small{display:block;color:#aeb3b5;font-size:10px;line-height:1.6;margin-top:4px;overflow-wrap:anywhere}
+.client-history-value{text-align:right;flex:none}
+.client-history-value strong{font:14px 'Bodoni Moda',serif;white-space:nowrap}
+.client-visit-status{display:inline-block;padding:4px 7px;border-radius:999px;background:#303537;color:#d5d8d9;font-size:8px!important;white-space:nowrap}
+.client-history-empty{font-size:11px;color:#aeb3b5}
+/* Mais respiro entre o valor e os botões de edição/exclusão no Financeiro */
+.admin-main .service-admin-actions{gap:12px}
+.admin-main .service-admin-actions>strong{margin-right:8px}
+@media(max-width:600px){
+ .client-overview-stats{grid-template-columns:1fr 1fr;gap:7px}
+ .client-overview-stats>div{padding:11px}
+ .client-overview-stats>div:last-child{grid-column:1/-1}
+ .client-overview-stats strong{font-size:21px}
+ .client-directory-card{padding:12px}
+ .client-directory-head{display:block}
+ .client-joined{display:block;margin-top:7px}
+ .client-metrics{grid-template-columns:1fr 1fr;gap:12px}
+ .client-metrics>div:last-child{grid-column:1/-1}
+ .client-history-item{gap:8px}
+ .client-history-value{max-width:44%}
+ .admin-main .service-admin-actions{gap:10px}
+ .admin-main .service-admin-actions>strong{margin-right:6px}
+}
+
+/* Clientes: CRM compacto com filtros, indicadores e contato rápido */
+.client-overview-stats-rich{grid-template-columns:repeat(4,minmax(0,1fr))}
+.client-overview-stats-rich .client-revenue-stat{grid-column:span 1}
+.client-filter-chips{display:flex;gap:7px;flex-wrap:wrap;margin:18px 0 14px}
+.client-filter-chips button{display:inline-flex;align-items:center;gap:7px;padding:8px 10px;border:1px solid #393e40;border-radius:999px;background:#171a1c;color:#c7cbcc;font-size:10px;cursor:pointer;transition:background .18s,border-color .18s,color .18s}
+.client-filter-chips button b{display:inline-flex;align-items:center;justify-content:center;min-width:18px;height:18px;padding:0 5px;border-radius:999px;background:#2a2e30;color:#f5f5f5;font-size:9px}
+.client-filter-chips button.active{background:#e9e9e7;color:#111;border-color:#e9e9e7}
+.client-filter-chips button.active b{background:#c6c8c8;color:#111}
+.client-list-toolbar{display:grid;grid-template-columns:minmax(0,1fr) minmax(190px,250px);gap:12px;align-items:end}
+.client-list-toolbar .admin-search{width:100%;margin:0}
+.client-list-toolbar label{display:grid;gap:6px;color:#aeb3b5;font-size:8px;letter-spacing:.1em}
+.client-list-toolbar select{width:100%;min-width:0;border:1px solid #3a3f41;border-radius:8px;padding:10px;background:#171a1c;color:#f0f1f1;font:inherit;font-size:11px;letter-spacing:normal}
+.client-result-count{font-size:10px;color:#aeb3b5;margin:14px 0 0}
+.client-directory-head{flex-wrap:wrap}
+.client-heading-main{flex:1;min-width:190px}
+.client-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.client-tag{display:inline-flex;align-items:center;padding:4px 7px;border-radius:999px;border:1px solid #414648;color:#c6cbcc;font-size:8px;letter-spacing:.04em}
+.client-tag.is-positive{border-color:#576b60;color:#c3dfce;background:#1b2821}
+.client-tag.is-scheduled{border-color:#776941;color:#e8d69a;background:#292519}
+.client-head-actions{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.client-head-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:29px;padding:0 9px;border:1px solid #44494b;border-radius:999px;color:#e6e8e8;text-decoration:none;font-size:8px;letter-spacing:.08em;transition:background .18s,color .18s}
+.client-head-actions a:hover{background:#eceeed;color:#111}
+.client-metrics-rich{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:900px){.client-overview-stats-rich{grid-template-columns:repeat(2,minmax(0,1fr))}.client-list-toolbar{grid-template-columns:1fr}.client-metrics-rich{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){
+ .client-overview-stats-rich{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .client-overview-stats-rich .client-revenue-stat{grid-column:1/-1}
+ .client-filter-chips{gap:6px;margin:14px 0}
+ .client-filter-chips button{font-size:9px;padding:7px 8px}
+ .client-list-toolbar{gap:9px}
+ .client-directory-head{display:flex;gap:9px}
+ .client-heading-main{flex-basis:100%}
+ .client-head-actions{order:2}
+ .client-joined{order:3;margin-top:0}
+ .client-metrics-rich{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+/* Faixas de preço das manutenções no catálogo administrativo */
+.services-admin-tiers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px;margin-top:9px}.services-admin-tiers span{display:flex;justify-content:space-between;gap:5px;padding:5px 6px;border:1px solid rgba(255,255,255,.1);border-radius:5px;color:#f4f5f5;font-size:10px}.services-admin-tiers em{font-style:normal;color:#aeb3b5}
+
+.service-delete-button{color:#f0aaa4;border-color:#754642}.service-delete-button:hover{background:#4b2523;color:#fff;border-color:#c97970}.service-delete-button:disabled{opacity:.5;cursor:not-allowed}
+
+/* Ajuste fino dos cartões de serviços no celular */
+@media (max-width: 600px){
+  .admin-main .admin-card{padding:14px 10px}
+  .services-admin-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .services-admin-card{border-radius:12px}
+  .services-admin-card-photo{height:112px}
+  .services-admin-card-body{padding:9px 8px 10px}
+  .services-admin-card-body>strong{font-family:'Bodoni Moda',Georgia,serif;font-size:13px;line-height:1.2;min-height:31px;white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .services-admin-meta{margin-top:7px;align-items:baseline;gap:4px}
+  .services-admin-meta b{font-size:13px;line-height:1.15;white-space:nowrap}
+  .services-admin-meta span{font-size:8px;white-space:nowrap}
+  .services-admin-tiers{gap:3px;margin-top:7px}
+  .services-admin-tiers span{display:block;min-width:0;padding:5px 4px;font-size:8px;line-height:1.2;overflow:hidden}
+  .services-admin-tiers em{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:2px;font-size:7px}
+  .services-admin-card-body small{font-size:8px;margin-top:6px}
+  .services-admin-card-actions{gap:6px;margin-top:10px}
+  .services-admin-card-actions .toggle{min-height:36px;padding:8px 3px;font-size:7px;letter-spacing:.06em;white-space:nowrap}
+  .services-admin-card-actions .toggle svg{width:12px;height:12px}
+}
+@media (max-width: 380px){
+  .services-admin-card-photo{height:102px}
+  .services-admin-card-body{padding-left:7px;padding-right:7px}
+  .services-admin-meta b{font-size:12px}
+  .services-admin-meta span{font-size:7px}
+  .services-admin-card-actions .toggle{font-size:6.5px;letter-spacing:.025em}
+}
+
+/* Oferta de manutenção pós-procedimento */
+.maintenance-offer-panel{margin-top:24px;background:linear-gradient(145deg,#1b1e20,#101213 72%);border:1px solid #555b5d;border-radius:20px;padding:28px;box-shadow:0 18px 45px #0008}.offer-heading{display:flex;align-items:flex-start;gap:16px;border-bottom:1px solid #383d3f;padding-bottom:22px}.offer-icon{width:42px;height:42px;display:grid;place-items:center;border:1px solid #aeb3b5;border-radius:50%;color:#fff;flex:none}.offer-heading h2{font-size:clamp(34px,4vw,58px);margin:12px 0 10px}.offer-heading p{color:#c4c8c9;font-size:13px;line-height:1.6;margin:0}.offer-heading strong{color:#fff}.offer-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:34px;margin-top:24px}.offer-form{margin-top:0}.offer-service-pill{display:flex;align-items:center;gap:12px;padding:12px;border:1px solid #444a4c;border-radius:12px;background:#151719}.offer-service-pill img{width:54px;height:54px;border-radius:8px;object-fit:cover}.offer-service-pill strong,.offer-service-pill span{display:block}.offer-service-pill strong{font:20px 'Bodoni Moda',serif}.offer-service-pill span{font-size:11px;color:#aeb3b5;line-height:1.4;margin-top:4px}.offer-date-note{display:flex;align-items:center;gap:7px;color:#c8ccce;font-size:11px;line-height:1.5;margin:0}.offer-summary{align-self:start}.offer-discount{color:#a9e3bd!important}.offer-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap}.offer-actions .text-link{background:none;border:0;cursor:pointer;padding:7px 0}.offer-actions .button{justify-content:center}
+@media(max-width:900px){.maintenance-offer-panel{padding:20px}.offer-layout{grid-template-columns:1fr;gap:24px}.offer-summary{order:-1}.offer-summary img{height:180px}.offer-heading h2{font-size:clamp(34px,9vw,52px)}}
+@media(max-width:480px){.maintenance-offer-panel{padding:16px;border-radius:15px}.offer-heading{gap:10px}.offer-icon{width:35px;height:35px}.offer-heading p{font-size:11px}.offer-service-pill strong{font-size:17px}.offer-service-pill span{font-size:10px}.offer-actions{gap:12px}.offer-actions .button{width:100%;justify-content:center}.offer-actions .text-link{margin:auto}}
+
+.offer-auto-date{display:grid;gap:8px;padding:12px 14px;border:1px solid #555b5d;border-radius:10px;background:#151719}.offer-auto-date .offer-date-note{margin:0}.offer-auto-date .offer-date-note strong{color:#fff}.offer-change-date{justify-self:start;font-size:9px;padding:0;border-bottom-color:#777d7f}
+
+/* Botão secundário da oferta: nunca usar o fundo branco padrão */
+.offer-auto-date .offer-change-date,.offer-actions .text-link{background:transparent!important;color:#d9ddde!important;border:0!important;border-bottom:1px solid #777d7f!important;border-radius:0!important;box-shadow:none!important;text-decoration:none!important}
+.offer-auto-date .offer-change-date:hover,.offer-actions .text-link:hover{color:#fff!important;border-bottom-color:#fff!important}
+
+
+/* ===== Ajustes finais para iPhone e telas estreitas ===== */
+html { -webkit-text-size-adjust: 100%; }
+@media (max-width: 600px) {
+  .hero {
+    padding-top: 94px;
+    padding-bottom: max(82px, env(safe-area-inset-bottom, 0px));
+  }
+  .hero-copy {
+    padding-top: 18px;
+  }
+  .hero h1 {
+    margin-top: 30px;
+    line-height: .96;
+  }
+  .hero-art {
+    margin-top: 58px;
+  }
+  .showcase-window {
+    width: 100%;
+    border-radius: 999px 999px 5px 5px;
+  }
+  .showcase-caption {
+    margin-top: 18px;
+    align-items: flex-start;
+  }
+  .showcase-caption > span {
+    max-width: 58%;
+    line-height: 1.45;
+  }
+  .app-shell input:not([type='checkbox']):not([type='file']),
+  .app-shell select,
+  .app-shell textarea {
+    font-size: 16px !important;
+    line-height: 1.35;
+  }
+  .login-page input:not([type='checkbox']):not([type='file']) {
+    min-height: 48px;
+  }
+  .login-page {
+    padding-bottom: max(55px, env(safe-area-inset-bottom, 0px));
+  }
+}
+@supports (padding: max(0px)) {
+  .site-header {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+}
+
+
+/* O texto da legenda fica fora da moldura para não atravessar a foto no mobile. */
+@media (max-width: 600px) {
+  .hero {
+    isolation: isolate;
+  }
+  .hero-copy {
+    position: relative;
+    z-index: 3;
+  }
+  .hero-art {
+    position: relative;
+    z-index: 1;
+    isolation: isolate;
+  }
+  .hero-showcase {
+    padding-bottom: 4px;
+  }
+  .hero-showcase::before {
+    bottom: 66px;
+    z-index: 0;
+  }
+  .showcase-window {
+    z-index: 1;
+  }
+  .showcase-caption {
+    position: relative;
+    z-index: 2;
+    margin-top: 30px;
+    padding: 5px 3px 0;
+    background: var(--black);
+  }
+}

@@ -1,0 +1,7 @@
+node_modules
+
+dist
+GB-BEAUTY-projeto-atualizado
+.env
+.env.*
+!.env.example

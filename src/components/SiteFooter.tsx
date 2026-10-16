@@ -1,0 +1,1 @@
+export default function SiteFooter(){return <footer><div className="brand footer-brand"><img className="brand-logo" src="/assets/brand/gabrielly-borges-logo.png" alt="Gabrielly Borges Beauty"/><span>BEAUTY<small>STUDIO DE BELEZA</small></span></div><p>Beleza elevada ao extraordinário.</p><span>© {new Date().getFullYear()} GB BEAUTY</span></footer>}
